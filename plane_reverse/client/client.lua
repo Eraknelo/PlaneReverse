@@ -14,6 +14,8 @@ function PlaneReverse:__init()
 	self:AddPlane(34)
 	self:AddPlane(85)
 	self:AddPlane(39)
+	self:AddPlane(53)
+	self:AddPlane(24)
 	
 	-- Subscribe to events
 	Events:Subscribe("LocalPlayerInput", self, self.LocalPlayerInput)
